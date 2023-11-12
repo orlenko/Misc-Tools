@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "==2.24.0"
+pytest = "==6.0.1"
+clipboard = "*"
+
+[requires]
+python_version = "3.8"

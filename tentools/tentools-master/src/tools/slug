@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "$@" | sed 's/[^a-zA-Z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-//;s/-$//' | tr 'A-Z' 'a-z'
+
