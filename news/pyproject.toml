@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "news"
+version = "0.1.0"
+description = ""
+authors = ["Vlad Orlenko <vlad@orlenko.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+feedparser = "^6.0.11"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
